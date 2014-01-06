@@ -1,0 +1,27 @@
+//
+// Prefix header for all source files of the 'fishFind' target in the 'fishFind' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+//数据库需要的文件
+#define DBNAME    @"personinfo.sqlite"
+#define BEIWEI    @"beiwei"
+#define DONGJING    @"dongjing"
+#define HAIBA    @"haiba"
+#define SHIJIAN    @"shijian"
+#define JULI    @"juli"
+#define RIQI    @"riqi"
+#define FANGWEI    @"fangwei"
+#define MINGCHENG    @"mingcheng"
+#define TABLENAME @"PERSONINFO"
+
+#endif
